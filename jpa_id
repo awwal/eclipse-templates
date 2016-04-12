@@ -1,0 +1,2 @@
+@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "${enclosing_type}")
+@SequenceGenerator(name="${enclosing_type}", sequenceName="${enclosing_type}_id_seq")
